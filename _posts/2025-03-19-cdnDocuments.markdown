@@ -114,7 +114,42 @@ categories: jekyll update
 ![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503211111382.png)
 
 
+### 防火墙屏蔽地区国家
+
+- 选择站点 -> 管理 -> 创建WAF规则
+    - 匹配类型选择: 国家/地区ISO代码
+    - value规则
+        - =: 与value值相同国际则执行操作
+        - !=: 排除value值后其他国家都执行操作
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503240955387.png)
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503240957315.png)
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241052136.png)
+
+> 拦截方式可选择其他, 时间也可根据情况自定义设置
+
+> [国家ISO代码查询](https://zh.wikipedia.org/wiki/ISO_3166-1)
+
+
+
+## 日志查看
 ### 查看CC攻击
 
 - 可以根据域名, 客户ID等搜索, 注意时间段选择
 ![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503211933977.png)
+
+
+### 访问日志
+- 查看已添加站点的请求ip和URL, 已经响应时间和源站流量
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241227637.png)
+
+
+### 拦截日志
+- 查看被拦截的访问详细信息
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241237272.png)
+
+
+### 拉黑日志
+- 为站点设置防火墙后会拉黑处理ip, 查看相关站点的已经拉黑信息
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241239265.png)
+> 如果存在防火墙策略误拉黑ip, 可以在黑名单搜索到ip释放
+

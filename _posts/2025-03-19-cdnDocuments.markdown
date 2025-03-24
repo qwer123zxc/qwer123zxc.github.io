@@ -153,3 +153,20 @@ categories: jekyll update
 ![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241239265.png)
 > 如果存在防火墙策略误拉黑ip, 可以在黑名单搜索到ip释放
 
+
+## 线路管理
+### 更改换线路组
+- 订单 -> 订单管理 -> 修改线路 -> 选择套餐确认
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241420689.png)
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241421484.png)
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241422908.png)
+
+
+ ## 系统维护
+ ### 系统设置
+ - 配置站点端口
+    - Http端口: 用户源站为http自定义端口(非80端口)
+    - Https端口: 用户源站为https自定义端口(非443端口)
+    - 4层转发端口:使用TCP/UDP转发时需要使用
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241507322.png)
+> 图上所示的是已经填加到设置里边的端口范围, 如果使用未在范围内的端口添加站点可能无法使用,需要手动添加下端口

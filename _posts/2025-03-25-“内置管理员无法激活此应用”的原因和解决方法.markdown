@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "内置管理员无法激活此应用的原因和解决方法"
+date:   2025-03-25 14:13:00 +0800
+categories: windowsFAQ
+---
+
+- 多出现于新装系统出现的运行软件报错,是由于这是因为电脑的安全设置问题造成的
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503251416655.png)
+
+- 解决办法:
+    - 首先按Win+R打开运行窗口，在运行窗口中输入gpedit.msc回车
+    - 依次打开: Windows设置 -> 安全设置 -> 本地策略 -> 安全选项 -> 用于内置管理员账户的管理员批准模式：勾选“已启用”
+    - 设置后重启电脑
+

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "剧名分配独立管理面板"
+date:   2025-03-28 12:33:00 +0800
+categories: skills
+---
+
+- 我的域名 -> 管理 -> 开启管理面板
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503281236714.png)
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503281237382.png)
+ &nbsp;
+
+- 域名管理 -> 批量操作 -> 批量修改域名密码(修改面板密码)
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503281320477.png)
+&nbsp;
+
+> 面板管理地址统一都为 http://www.judns.com, 账号为域名

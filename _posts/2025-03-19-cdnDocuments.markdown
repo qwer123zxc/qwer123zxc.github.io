@@ -3,6 +3,7 @@ layout: post
 title:  "cdnDocuments"
 date:   2025-03-19 10:23:52 +0800
 categories: jekyll update
+pin: true
 ---
 
 
@@ -170,3 +171,22 @@ categories: jekyll update
     - 4层转发端口:使用TCP/UDP转发时需要使用
 ![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503241507322.png)
 > 图上所示的是已经填加到设置里边的端口范围, 如果使用未在范围内的端口添加站点可能无法使用,需要手动添加下端口
+
+
+## 其他
+
+### 设置CORS跨域
+
+浏览器F12中提示CORS跨域提示
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503281621791.png)
+&nbsp;
+
+- 需要为站点开启跨域 -> 站点-> 管理 -> CORS跨域
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503281629551.png)
+&nbsp;
+
+- 根据报错信息的填写`Access-Control-Allow-Origin`和`Access-Control-Allow-Headers`
+![](https://picstorehouse.oss-cn-chengdu.aliyuncs.com/img/202503281631579.png)
+&nbsp;
+
+> field后边的字段可以写入Headers
